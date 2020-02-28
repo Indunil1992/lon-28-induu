@@ -1,0 +1,92 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "ca8463eb-f803-4e47-aba1-abfb5f165e18": {
+        "id": "ca8463eb-f803-4e47-aba1-abfb5f165e18",
+        "parent": null,
+        "name": "dvtlambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "dvtlambda.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigeuWest2induLondntestinduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "ca8463eb-f803-4e47-aba1-abfb5f165e18"
+    ],
+    "currentFileId": "ca8463eb-f803-4e47-aba1-abfb5f165e18",
+    "resources": {
+      "apigeuWest2induLondntestinduany": {
+        "name": "apigeuWest2induLondntestinduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "eu-west-2",
+          "apiMode": 0,
+          "apiName": "indu-londn",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "test/indu",
+          "resourcePath": "/test/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "qa",
+          "mode": 0
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "lon-28-induu",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "eu-west-2",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1582870201615
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "lon-28-induu",
+      "url": "https://github.com/Indunil1992/lon-28-induu"
+    }
+  }
+}
